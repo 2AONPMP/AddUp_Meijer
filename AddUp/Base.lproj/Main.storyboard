@@ -373,7 +373,7 @@
                                             <segue destination="DFU-fL-koU" kind="presentation" identifier="mySeg" id="rri-rb-fbj"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoAddUp.png" translatesAutoresizingMaskIntoConstraints="NO" id="TDK-3B-EDq">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NomAddUp.png" translatesAutoresizingMaskIntoConstraints="NO" id="TDK-3B-EDq">
                                         <rect key="frame" x="88.5" y="38" width="198" height="55"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="198" id="HND-U1-Wqa"/>
@@ -602,12 +602,12 @@
                                 <exclude reference="FHD-2c-unA"/>
                                 <exclude reference="Jco-om-tX3"/>
                                 <exclude reference="K2N-hQ-Hly"/>
-                                <exclude reference="Ak1-s7-7wd"/>
-                                <exclude reference="kzC-h2-Y33"/>
-                                <exclude reference="pjP-5b-beq"/>
                                 <exclude reference="5C5-Rl-OJO"/>
                                 <exclude reference="hiE-Yr-RED"/>
                                 <exclude reference="lRG-fj-bzJ"/>
+                                <exclude reference="Ak1-s7-7wd"/>
+                                <exclude reference="kzC-h2-Y33"/>
+                                <exclude reference="pjP-5b-beq"/>
                                 <exclude reference="aql-1n-5Gq"/>
                                 <exclude reference="ymi-8i-JI9"/>
                             </mask>
@@ -620,18 +620,18 @@
                                 <include reference="Jco-om-tX3"/>
                                 <include reference="K2N-hQ-Hly"/>
                                 <exclude reference="fmL-IV-QqW"/>
-                                <include reference="Ak1-s7-7wd"/>
-                                <exclude reference="gMI-sb-Kqd"/>
-                                <include reference="kzC-h2-Y33"/>
-                                <exclude reference="l1L-An-VVc"/>
-                                <include reference="pjP-5b-beq"/>
-                                <exclude reference="uWV-OJ-eQd"/>
                                 <include reference="5C5-Rl-OJO"/>
                                 <exclude reference="EPD-YW-oeG"/>
                                 <exclude reference="QHD-o5-2cj"/>
                                 <include reference="hiE-Yr-RED"/>
                                 <include reference="lRG-fj-bzJ"/>
                                 <exclude reference="q1a-Nr-Mec"/>
+                                <include reference="Ak1-s7-7wd"/>
+                                <exclude reference="gMI-sb-Kqd"/>
+                                <include reference="kzC-h2-Y33"/>
+                                <exclude reference="l1L-An-VVc"/>
+                                <include reference="pjP-5b-beq"/>
+                                <exclude reference="uWV-OJ-eQd"/>
                                 <include reference="aql-1n-5Gq"/>
                                 <exclude reference="g7B-bs-Tkm"/>
                                 <include reference="ymi-8i-JI9"/>
@@ -662,9 +662,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4Xr-ai-dcN">
-                                <rect key="frame" x="40" y="121" width="295" height="362"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4Xr-ai-dcN">
+                                <rect key="frame" x="0.0" y="20" width="375" height="489"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <color key="sectionIndexColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -673,11 +672,10 @@
                                     <outlet property="delegate" destination="DFU-fL-koU" id="hoM-6e-Uga"/>
                                 </connections>
                             </tableView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bxn-Bf-V2F">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bxn-Bf-V2F">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LogoAddUp.png" translatesAutoresizingMaskIntoConstraints="NO" id="oL6-Cl-FSd">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NomAddUp.png" translatesAutoresizingMaskIntoConstraints="NO" id="oL6-Cl-FSd">
                                         <rect key="frame" x="89" y="38" width="197" height="55"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -691,10 +689,12 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.97452980279922485" blue="0.48129135370254517" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="ihv-XZ-iJ5"/>
+                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YdP-DN-iNt">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YdP-DN-iNt">
                                 <rect key="frame" x="0.0" y="509" width="375" height="158"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2dO-p0-XUY">
                                         <rect key="frame" x="8" y="8" width="179" height="142"/>
@@ -704,9 +704,8 @@
                                             <outlet property="delegate" destination="DFU-fL-koU" id="SWY-vm-ssi"/>
                                         </connections>
                                     </pickerView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlN-PR-Jcg">
-                                        <rect key="frame" x="231" y="39" width="127" height="80"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlN-PR-Jcg">
+                                        <rect key="frame" x="237" y="39" width="121" height="80"/>
                                         <fontDescription key="fontDescription" name="MetroBold" family="Metro" pointSize="24"/>
                                         <state key="normal" title="Set Budget">
                                             <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -717,9 +716,26 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.97452980279922485" blue="0.48129135370254517" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="158" id="TAy-5C-JKy"/>
+                                    <constraint firstAttribute="trailing" secondItem="FlN-PR-Jcg" secondAttribute="trailing" constant="17" id="gP7-Dp-Muv"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="xII-fM-wEj" firstAttribute="top" secondItem="YdP-DN-iNt" secondAttribute="bottom" id="3bR-aa-JOf"/>
+                            <constraint firstAttribute="trailing" secondItem="4Xr-ai-dcN" secondAttribute="trailing" id="3nc-D1-GrA"/>
+                            <constraint firstItem="Bxn-Bf-V2F" firstAttribute="top" secondItem="TUO-KN-Llf" secondAttribute="top" id="9ZV-Zq-XPu"/>
+                            <constraint firstItem="4Xr-ai-dcN" firstAttribute="top" secondItem="Iek-AF-CGc" secondAttribute="bottom" id="ScW-dA-Q8V"/>
+                            <constraint firstItem="Bxn-Bf-V2F" firstAttribute="leading" secondItem="TUO-KN-Llf" secondAttribute="leading" id="YTy-9G-Hqn"/>
+                            <constraint firstItem="4Xr-ai-dcN" firstAttribute="centerX" secondItem="TUO-KN-Llf" secondAttribute="centerX" id="nSQ-nt-cS7"/>
+                            <constraint firstItem="YdP-DN-iNt" firstAttribute="centerX" secondItem="TUO-KN-Llf" secondAttribute="centerX" id="nmC-Ee-byN"/>
+                            <constraint firstItem="Bxn-Bf-V2F" firstAttribute="centerX" secondItem="TUO-KN-Llf" secondAttribute="centerX" id="rKZ-Ut-QXs"/>
+                            <constraint firstItem="4Xr-ai-dcN" firstAttribute="leading" secondItem="TUO-KN-Llf" secondAttribute="leading" id="sEd-qf-w50"/>
+                            <constraint firstItem="YdP-DN-iNt" firstAttribute="top" secondItem="4Xr-ai-dcN" secondAttribute="bottom" id="t99-LV-1Na"/>
+                            <constraint firstItem="YdP-DN-iNt" firstAttribute="leading" secondItem="TUO-KN-Llf" secondAttribute="leading" id="tjd-IY-MXc"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="simplePicker" destination="2dO-p0-XUY" id="Lih-ex-wmg"/>
@@ -731,7 +747,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LogoAddUp.png" width="110" height="110"/>
+        <image name="NomAddUp.png" width="386" height="110"/>
         <image name="Regist.png" width="128" height="128"/>
         <image name="cinq.png" width="190" height="140"/>
         <image name="deux.png" width="190" height="140"/>
