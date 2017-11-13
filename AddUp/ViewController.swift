@@ -19,12 +19,12 @@ class ViewController: UIViewController {
     var w: CGFloat! = 0.0
     
     //# MARK: - Instances
-    var quebecTaxesObj: QuebecTaxes!
+    var michiganTaxesObj: MichiganTaxe!
     
     //# MARK: - viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.quebecTaxesObj = QuebecTaxes()
+        self.michiganTaxesObj = MichiganTaxe()
         self.labelNumberToDisplay.text = self.informationToDisplay(theSum: self.addUpArray())
         self.totalAmount = self.addUpArray()
         if self.plusButton.alpha == 0.2 {
@@ -44,8 +44,6 @@ class ViewController: UIViewController {
         return "\(b)\n\(s)"
     }
     
-
-    
     //# MARK: -
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -54,28 +52,28 @@ class ViewController: UIViewController {
     //# MARK: - buttonsManager
     @IBAction func buttonsManager(_ sender: UIButton) {
         switch sender.tag {
-            case 10 :
-                if !self.decimalClicked {
-                    self.decimalClicked = true
-                    self.displayAmount(theString: ".")
-                }
-            case 11 :
-                if sender.alpha != 0.2 {
-                    self.addingTotal()
-                    sender.alpha = 0.2
-                    self.taxesButton.alpha = 0.2
-                }
-            case 12 :
-                if sender.alpha != 0.2 {
-                    self.addingTotalWithTaxes()
-                    sender.alpha = 0.2
-                    self.plusButton.alpha = 0.2
-                }
-            default:
-                self.plusButton.alpha = 1.0
-                self.taxesButton.alpha = 1.0
-                self.plusSign.alpha = 0.0
-                self.displayAmount(theString: String(sender.tag))
+        case 10 :
+            if !self.decimalClicked {
+                self.decimalClicked = true
+                self.displayAmount(theString: ".")
+            }
+        case 11 :
+            if sender.alpha != 0.2 {
+                self.addingTotal()
+                sender.alpha = 0.2
+                self.taxesButton.alpha = 0.2
+            }
+        case 12 :
+            if sender.alpha != 0.2 {
+                self.addingTotalWithTaxes()
+                sender.alpha = 0.2
+                self.plusButton.alpha = 0.2
+            }
+        default:
+            self.plusButton.alpha = 1.0
+            self.taxesButton.alpha = 1.0
+            self.plusSign.alpha = 0.0
+            self.displayAmount(theString: String(sender.tag))
         }
     }
     
@@ -98,15 +96,15 @@ class ViewController: UIViewController {
         let alertController = UIAlertController(title: "Message", message: "Do you really want to erase everything?", preferredStyle: .alert)
         let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default) {
             UIAlertAction in
-                self.numberToDisplay = ""
-                self.labelNumberToDisplay.text = self.informationToDisplay(theSum: 0.00)
-                self.decimalClicked = false
-                self.decimalCounter = -1
-                self.totalAmount = 0.00
-                self.plusButton.alpha = 0.2
-                self.taxesButton.alpha = 0.2
-                self.plusSign.alpha = 0.0
-                Singleton.sharedInstance.emptyArray()
+            self.numberToDisplay = ""
+            self.labelNumberToDisplay.text = self.informationToDisplay(theSum: 0.00)
+            self.decimalClicked = false
+            self.decimalCounter = -1
+            self.totalAmount = 0.00
+            self.plusButton.alpha = 0.2
+            self.taxesButton.alpha = 0.2
+            self.plusSign.alpha = 0.0
+            Singleton.sharedInstance.emptyArray()
         }
         let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.cancel) {
             UIAlertAction in
@@ -119,6 +117,9 @@ class ViewController: UIViewController {
     
     //# MARK: - addingTotal
     private func addingTotal() {
+        if self.numberToDisplay == "" {
+            return
+        }
         Singleton.sharedInstance.addToArray(theNumber: Float(self.numberToDisplay)!)
         self.totalAmount = self.addUpArray()
         self.numberToDisplay = ""
@@ -130,7 +131,7 @@ class ViewController: UIViewController {
     
     //# MARK: - addingTotalWithTaxes
     private func addingTotalWithTaxes() {
-        let amountWithTaxes = self.quebecTaxesObj.getAmountWithTaxes(initialAmount: Float(self.numberToDisplay)!)
+        let amountWithTaxes = self.michiganTaxesObj.getAmountWithTaxes(initialAmount: Float(self.numberToDisplay)!)
         Singleton.sharedInstance.addToArray(theNumber: Float(amountWithTaxes)!)
         self.totalAmount = self.addUpArray()
         self.numberToDisplay = ""
@@ -150,15 +151,5 @@ class ViewController: UIViewController {
     }
 }
 //=================================
-
-
-
-
-
-
-
-
-
-
 
 

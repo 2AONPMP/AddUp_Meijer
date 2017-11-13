@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B1AC6A21FB9F0F0009F6F54 /* LogoSac.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AC6A11FB9F0F0009F6F54 /* LogoSac.png */; };
+		9B1AC6A41FB9F5DF009F6F54 /* lapis.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AC6A31FB9F5DF009F6F54 /* lapis.png */; };
+		9B1AC6AA1FB9F9B3009F6F54 /* Regist.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AC6A91FB9F9B3009F6F54 /* Regist.png */; };
+		9B1AC6AC1FB9FA8A009F6F54 /* sept.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AC6AB1FB9FA89009F6F54 /* sept.png */; };
+		9B1AC6B01FB9FADB009F6F54 /* six.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AC6AD1FB9FAD6009F6F54 /* six.png */; };
+		9B1AC6B11FB9FADB009F6F54 /* un.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AC6AE1FB9FAD7009F6F54 /* un.png */; };
+		9B1AC6B21FB9FADB009F6F54 /* trois.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AC6AF1FB9FAD7009F6F54 /* trois.png */; };
+		9B1AC6B51FB9FAE9009F6F54 /* deux.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AC6B31FB9FAE8009F6F54 /* deux.png */; };
+		9B1AC6BA1FB9FB27009F6F54 /* neuf.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AC6B71FB9FB26009F6F54 /* neuf.png */; };
+		9B1AC6BB1FB9FB27009F6F54 /* zero.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AC6B81FB9FB26009F6F54 /* zero.png */; };
+		9B1AC6BE1FB9FB53009F6F54 /* huit.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AC6BD1FB9FB52009F6F54 /* huit.png */; };
+		9B1AC6C21FBA0012009F6F54 /* cinq.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AC6C01FBA0011009F6F54 /* cinq.png */; };
+		9B1AC6C41FBA00A4009F6F54 /* quatre.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AC6C31FBA00A4009F6F54 /* quatre.png */; };
+		9B1AC6C61FBA03E2009F6F54 /* LogoAddUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1AC6C51FBA03E0009F6F54 /* LogoAddUp.png */; };
+		9C83C4241FB8A8A20095542F /* ViewFond.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C83C4231FB8A8A20095542F /* ViewFond.png */; };
+		9C83C4261FB8A91E0095542F /* LaunchAddUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C83C4251FB8A91E0095542F /* LaunchAddUp.png */; };
+		9C83C4281FB8AA560095542F /* MichiganTaxe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C83C4271FB8AA560095542F /* MichiganTaxe.swift */; };
 		9D355DC81D70946100D4D755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4F1D6DDE39001490B9 /* Main.storyboard */; };
 		9D4DEC4C1D6DDE39001490B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */; };
 		9D4DEC4E1D6DDE39001490B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4D1D6DDE39001490B9 /* ViewController.swift */; };
@@ -14,10 +31,26 @@
 		9D4DEC561D6DDE39001490B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4DEC541D6DDE39001490B9 /* LaunchScreen.storyboard */; };
 		9D741FF21D74BA260064B267 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D741FF11D74BA260064B267 /* Singleton.swift */; };
 		9D7E0FCD1D75D67800D2ADFA /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7E0FCC1D75D67800D2ADFA /* TableController.swift */; };
-		9DC7199C1D77229C0063670B /* QuebecTaxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC7199B1D77229C0063670B /* QuebecTaxes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B1AC6A11FB9F0F0009F6F54 /* LogoSac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LogoSac.png; path = Images/LogoSac.png; sourceTree = "<group>"; };
+		9B1AC6A31FB9F5DF009F6F54 /* lapis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lapis.png; path = Images/lapis.png; sourceTree = "<group>"; };
+		9B1AC6A91FB9F9B3009F6F54 /* Regist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Regist.png; path = Images/Regist.png; sourceTree = "<group>"; };
+		9B1AC6AB1FB9FA89009F6F54 /* sept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sept.png; path = Images/sept.png; sourceTree = "<group>"; };
+		9B1AC6AD1FB9FAD6009F6F54 /* six.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = six.png; path = Images/six.png; sourceTree = "<group>"; };
+		9B1AC6AE1FB9FAD7009F6F54 /* un.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = un.png; path = Images/un.png; sourceTree = "<group>"; };
+		9B1AC6AF1FB9FAD7009F6F54 /* trois.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trois.png; path = Images/trois.png; sourceTree = "<group>"; };
+		9B1AC6B31FB9FAE8009F6F54 /* deux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deux.png; path = Images/deux.png; sourceTree = "<group>"; };
+		9B1AC6B71FB9FB26009F6F54 /* neuf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = neuf.png; path = Images/neuf.png; sourceTree = "<group>"; };
+		9B1AC6B81FB9FB26009F6F54 /* zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zero.png; path = Images/zero.png; sourceTree = "<group>"; };
+		9B1AC6BD1FB9FB52009F6F54 /* huit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = huit.png; path = Images/huit.png; sourceTree = "<group>"; };
+		9B1AC6C01FBA0011009F6F54 /* cinq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cinq.png; path = Images/cinq.png; sourceTree = "<group>"; };
+		9B1AC6C31FBA00A4009F6F54 /* quatre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = quatre.png; path = Images/quatre.png; sourceTree = "<group>"; };
+		9B1AC6C51FBA03E0009F6F54 /* LogoAddUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LogoAddUp.png; path = Images/LogoAddUp.png; sourceTree = "<group>"; };
+		9C83C4231FB8A8A20095542F /* ViewFond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ViewFond.png; path = Images/ViewFond.png; sourceTree = "<group>"; };
+		9C83C4251FB8A91E0095542F /* LaunchAddUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchAddUp.png; path = Images/LaunchAddUp.png; sourceTree = "<group>"; };
+		9C83C4271FB8AA560095542F /* MichiganTaxe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichiganTaxe.swift; sourceTree = "<group>"; };
 		9D4DEC481D6DDE38001490B9 /* AddUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D4DEC4D1D6DDE39001490B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,7 +60,6 @@
 		9D4DEC571D6DDE39001490B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D741FF11D74BA260064B267 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		9D7E0FCC1D75D67800D2ADFA /* TableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
-		9DC7199B1D77229C0063670B /* QuebecTaxes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuebecTaxes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +97,9 @@
 				9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */,
 				9D741FF11D74BA260064B267 /* Singleton.swift */,
 				9D4DEC4D1D6DDE39001490B9 /* ViewController.swift */,
-				9DC7199B1D77229C0063670B /* QuebecTaxes.swift */,
 				9D7E0FCC1D75D67800D2ADFA /* TableController.swift */,
 				9D4DEC4F1D6DDE39001490B9 /* Main.storyboard */,
+				9C83C4271FB8AA560095542F /* MichiganTaxe.swift */,
 				9D4DEC521D6DDE39001490B9 /* Assets.xcassets */,
 				9D4DEC541D6DDE39001490B9 /* LaunchScreen.storyboard */,
 				9D4DEC571D6DDE39001490B9 /* Info.plist */,
@@ -85,6 +117,22 @@
 		9DA1D6821D7621090084B01E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9B1AC6C51FBA03E0009F6F54 /* LogoAddUp.png */,
+				9B1AC6C31FBA00A4009F6F54 /* quatre.png */,
+				9B1AC6C01FBA0011009F6F54 /* cinq.png */,
+				9B1AC6BD1FB9FB52009F6F54 /* huit.png */,
+				9B1AC6B71FB9FB26009F6F54 /* neuf.png */,
+				9B1AC6B81FB9FB26009F6F54 /* zero.png */,
+				9B1AC6B31FB9FAE8009F6F54 /* deux.png */,
+				9B1AC6AD1FB9FAD6009F6F54 /* six.png */,
+				9B1AC6AF1FB9FAD7009F6F54 /* trois.png */,
+				9B1AC6AE1FB9FAD7009F6F54 /* un.png */,
+				9B1AC6AB1FB9FA89009F6F54 /* sept.png */,
+				9B1AC6A91FB9F9B3009F6F54 /* Regist.png */,
+				9B1AC6A31FB9F5DF009F6F54 /* lapis.png */,
+				9B1AC6A11FB9F0F0009F6F54 /* LogoSac.png */,
+				9C83C4251FB8A91E0095542F /* LaunchAddUp.png */,
+				9C83C4231FB8A8A20095542F /* ViewFond.png */,
 				9DC593451D787D9C00D65655 /* icons */,
 			);
 			name = Images;
@@ -157,7 +205,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B1AC6A21FB9F0F0009F6F54 /* LogoSac.png in Resources */,
 				9D4DEC561D6DDE39001490B9 /* LaunchScreen.storyboard in Resources */,
+				9B1AC6C61FBA03E2009F6F54 /* LogoAddUp.png in Resources */,
+				9B1AC6C21FBA0012009F6F54 /* cinq.png in Resources */,
+				9B1AC6B11FB9FADB009F6F54 /* un.png in Resources */,
+				9B1AC6AC1FB9FA8A009F6F54 /* sept.png in Resources */,
+				9C83C4261FB8A91E0095542F /* LaunchAddUp.png in Resources */,
+				9B1AC6B21FB9FADB009F6F54 /* trois.png in Resources */,
+				9B1AC6AA1FB9F9B3009F6F54 /* Regist.png in Resources */,
+				9B1AC6A41FB9F5DF009F6F54 /* lapis.png in Resources */,
+				9B1AC6B01FB9FADB009F6F54 /* six.png in Resources */,
+				9C83C4241FB8A8A20095542F /* ViewFond.png in Resources */,
+				9B1AC6BE1FB9FB53009F6F54 /* huit.png in Resources */,
+				9B1AC6BB1FB9FB27009F6F54 /* zero.png in Resources */,
+				9B1AC6C41FBA00A4009F6F54 /* quatre.png in Resources */,
+				9B1AC6BA1FB9FB27009F6F54 /* neuf.png in Resources */,
+				9B1AC6B51FB9FAE9009F6F54 /* deux.png in Resources */,
 				9D355DC81D70946100D4D755 /* Main.storyboard in Resources */,
 				9D4DEC531D6DDE39001490B9 /* Assets.xcassets in Resources */,
 			);
@@ -171,10 +235,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D7E0FCD1D75D67800D2ADFA /* TableController.swift in Sources */,
+				9C83C4281FB8AA560095542F /* MichiganTaxe.swift in Sources */,
 				9D4DEC4E1D6DDE39001490B9 /* ViewController.swift in Sources */,
 				9D741FF21D74BA260064B267 /* Singleton.swift in Sources */,
 				9D4DEC4C1D6DDE39001490B9 /* AppDelegate.swift in Sources */,
-				9DC7199C1D77229C0063670B /* QuebecTaxes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +381,7 @@
 				INFOPLIST_FILE = AddUp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mariogeneau.AddUp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2AONPMP.AddUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 3.0;
@@ -332,7 +396,7 @@
 				INFOPLIST_FILE = AddUp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mariogeneau.AddUp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2AONPMP.AddUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 3.0;

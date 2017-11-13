@@ -1,0 +1,18 @@
+Fonts used in this design;
+
+Font: Alfa Slab, 
+Author: JM Solé, 
+Url: http://www.fontsquirrel.com/fonts/alfa-slab; 
+
+Font: La unica, 
+Author: Estefania Hormigo, 
+Url: http://www.fontsquirrel.com/fonts/la-unica; 
+
+Font: Nexa Rust, 
+Author: Fontfabric, 
+Url: http://www.fontsquirrel.com/fonts/nexa-rust; 
+
+Font: Nexa, 
+Author: Fontfabric, 
+Url: http://www.fontsquirrel.com/fonts/nexa; 
+
