@@ -374,7 +374,7 @@
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NomAddUp.png" translatesAutoresizingMaskIntoConstraints="NO" id="TDK-3B-EDq">
-                                        <rect key="frame" x="89" y="38" width="198" height="55"/>
+                                        <rect key="frame" x="88.5" y="38" width="198" height="55"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="198" id="HND-U1-Wqa"/>
                                             <constraint firstAttribute="height" constant="55" id="W9I-wf-6GL"/>
